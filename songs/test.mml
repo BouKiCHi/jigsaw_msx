@@ -1,0 +1,29 @@
+
+
+; Test tone
+@OPM0 = {
+ ;MASK NE NF LFRQ PSW PM CT WF 
+   15 ,0 , 0 , 0  ,0  ,0 ,3 ,0
+
+ ;PAN FB CNT
+  ,3  ,0  0
+
+ ; PMS AMS
+   ,0  ,0
+
+ ; DT1 MUL TL KSL AR ASE DR1 DT2 DR2 DL RR
+   0   2   $f  0  $f   0  0   0   0   0  5 ; M1
+   0   0   $f  0  $f   0  0   0   0   0  5 ; M2
+   0   0   $f  0  $f   0  0   0   0   0  5 ; C1
+   0   0   $f  0  $f   0  0   0   0   0  5 ; C2
+}
+
+
+
+ABCD t120 o4
+
+ABCD W0 v105 
+
+
+A l8 cdefgab>c
+

@@ -1,0 +1,26 @@
+
+JigSaw ver 130121 / Programmed by BKC
+
+* What Is This?
+
+　SFG-0xを利用するために、MoonDriverから流用したドライバです。
+
+* How To Play
+
+　コマンドラインから
+jig song.jig
+　などとするとよいです。
+
+* Why is this called JigSaw?
+
+　おそらくは当時流行っていた映画から取ったような気がします。
+
+* Notice
+
+　不具合が多いと思われますので使用には注意を…。
+　$3FF0はステータスレジスタではありませんでした…。
+　
+* History
+
+  2013-01-21 / ステータスレジスタのアドレスを変更した。
+  2007-06-01 / 初期バージョン
